@@ -1,10 +1,10 @@
 public class MahoganyTree  extends  Seed implements Printable {
 
-    private int lifeSpan;
+    private String nameOfaFruit;
 
-    public MahoganyTree(String name, String color, int lifeSpan){
+    public MahoganyTree(String name, String color, String nameOfaFruit){
         super(name, color);
-        this.lifeSpan = lifeSpan;
+        this.nameOfaFruit = nameOfaFruit;
 
 
     }
@@ -12,7 +12,7 @@ public class MahoganyTree  extends  Seed implements Printable {
     @Override
     public void print() {
         System.out.println("----------------------");
-        System.out.println( "Life Span in years  = " + lifeSpan +
+        System.out.println( "Name of a fruit  = " + nameOfaFruit +
                 "\nName = " + getName() +
                 "\nColor = " + getColor());
 

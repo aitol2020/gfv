@@ -1,10 +1,10 @@
 public class BanyanTree extends  Seed implements Printable {
 
-    private int lifeSpan;
+    private String symbol;
 
-    public BanyanTree(String name, String color, int lifeSpan){
+    public BanyanTree(String name, String color, String symbol){
         super(name, color);
-        this.lifeSpan = lifeSpan;
+        this.symbol = symbol;
 
 
     }
@@ -12,7 +12,7 @@ public class BanyanTree extends  Seed implements Printable {
     @Override
     public void print() {
         System.out.println("----------------------");
-        System.out.println( "Life Span  in years = " + lifeSpan +
+        System.out.println( "Symbol of a  = " + symbol +
                 "\nName = " + getName() +
                 "\nColor = " + getColor());
 

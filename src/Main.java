@@ -11,13 +11,13 @@ public class Main {
         Printable printable = null;   //  ⬅  we have created Printable type variable coz all of our classes are united by this interface
         switch (className) {
             case "OrdinaryTree":
-                printable = new OrdinaryTree("Ordinary tree", "black", 75);
+                printable = new OrdinaryTree("Ordinary tree", "black", 85.6);
                 break;
             case "BanyanTree":
-                printable = new BanyanTree("Banyan  tree", "green", 220);
+                printable = new BanyanTree("Banyan  tree", "green", "Longevity (долговечность) ");
                 break;
             case "MahoganyTree":
-                printable = new MahoganyTree("Mahogany tree", "brown", 350);
+                printable = new MahoganyTree("Mahogany tree", "brown", "Sky-fruit (it is known as a SKY-FRUIT due to orientation  of capsules toward the sky)");
                 break;
         }
         return printable;

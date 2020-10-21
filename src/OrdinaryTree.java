@@ -1,10 +1,10 @@
 public class OrdinaryTree extends Seed implements Printable {
 
-    private int lifeSpan;
+    private double height;
 
-    public OrdinaryTree(String name, String color, int lifeSpan){
+    public OrdinaryTree(String name, String color, double height){
         super(name, color);
-        this.lifeSpan = lifeSpan;
+        this.height = height;
 
 
     }
@@ -12,7 +12,7 @@ public class OrdinaryTree extends Seed implements Printable {
     @Override
     public void print() {
         System.out.println("----------------------");
-        System.out.println( "Life Span in years = " + lifeSpan +
+        System.out.println("height in feet = " + height +
                 "\nName = " + getName() +
                 "\nColor = " + getColor());
 
