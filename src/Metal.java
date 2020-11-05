@@ -1,8 +1,8 @@
-public abstract class Seed implements Printable {
+public abstract class Metal implements Printable {
     private String name;
     private String color;
 
-    public Seed(String name, String color){
+    public Metal(String name, String color){
         this.name = name;
         this.color = color;
     }
